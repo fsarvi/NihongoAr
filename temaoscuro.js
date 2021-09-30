@@ -5,7 +5,7 @@ function cambiar_tema() {
 
   var footer = document.getElementById('footer');
   
-    if (footer.style.backgroundColor == "red"){
+    if (footer.style.backgroundColor === "red"){
       console.log("negro");
       footer.style.backgroundColor= "#535252";
     }
