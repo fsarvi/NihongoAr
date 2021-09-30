@@ -6,13 +6,13 @@ function cambiar_tema() {
   var footer = document.getElementById('footer');
   var rojo = '#bd3133';
   var negro = '#535252';
-    if (footer.style.backgroundColor === rojo){
+    if (footer.style.backgroundColor === 'rojo'){
       console.log("negro");
-      footer.style.backgroundColor= negro;
+      footer.style.backgroundColor= 'negro';
     }
     else {
       console.log("rojo");
-      footer.style.backgroundColor= rojo;
+      footer.style.backgroundColor= 'rojo';
     }
  }
 
