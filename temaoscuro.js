@@ -7,10 +7,10 @@ function cambiar_tema() {
   
     if (footer.style.background-color = "red"){
       console.log("negro");
-      footer.style.backgroundColor= "#535252";
+      footer.style.background-color= "#535252";
     } else {
       console.log("rojo");
-      footer.style.backgroundColor= "red";
+      footer.style.background-color= "red";
     }
  }
 /*document.querySelector(".temaoscuro")
