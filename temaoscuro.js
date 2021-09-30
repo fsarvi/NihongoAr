@@ -6,11 +6,11 @@ function cambiar_tema() {
   var footer = document.getElementById("footer");
   
     if (footer.style.background-color = "red"){
-      console.log("rojo");
+      console.log("negro");
       footer.style.backgroundColor= "#535252";
     } else {
-      console.log("negro");
-      footer.style.backgroundColor= "#bd3133";
+      console.log("rojo");
+      footer.style.backgroundColor= "red";
     }
  }
 /*document.querySelector(".temaoscuro")
