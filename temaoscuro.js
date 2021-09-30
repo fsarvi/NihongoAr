@@ -4,7 +4,7 @@ document.querySelector(".temaoscuro")
 function cambiar_tema() {
 
   var footer = document.getElementById("footer");
-    if (footer.style.backgroundColor ="#bd3133"){
+    if (footer.style.backgroundColor == "#bd3133"){
       footer.style.backgroundColor= "#535252";
     } else{
       footer.style.backgroundColor= "#bd3133"
@@ -13,7 +13,7 @@ function cambiar_tema() {
 
   var header = document.getElementById("header");
     
-    if (header.style.backgroundColor= "#bd3133"){
+    if (header.style.backgroundColor== "#bd3133"){
       header.style.backgroundColor= "#535252";
     } else{
       header.style.backgroundColor= "#bd3133"
