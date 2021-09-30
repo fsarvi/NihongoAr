@@ -20,7 +20,7 @@ document.querySelector(".temaoscuro")
 
 function cambiar_tema() {
 
-  var footer = document.getElementById("footer");
+  var footer = document.getElementById('footer');
     if (footer.style.backgroundColor === "#bd3133"){
       footer.style.backgroundColor = "#535252";
     } else{
@@ -28,7 +28,7 @@ function cambiar_tema() {
     }
     
 
-  var header = document.getElementById("header");
+  var header = document.getElementById('header');
     
     if (header.style.backgroundColor === "#bd3133"){
       header.style.backgroundColor = "#535252";
@@ -43,7 +43,7 @@ document.querySelector("#tema_oscuro_menu")
 
 function cambiar_tema() {
 
-  var footer = document.getElementById("footer");
+  var footer = document.getElementById('footer');
     if (footer.style.backgroundColor === "#bd3133"){
       footer.style.backgroundColor = "#535252";
     } else if (footer.style.backgroundColor= "#535252"){
@@ -51,8 +51,8 @@ function cambiar_tema() {
     }
     
 
-  var header = document.getElementById("header");
-    if (header.style.backgroundColor=== "#bd3133"){
+  var header = document.getElementById('header');
+    if (header.style.backgroundColor === "#bd3133"){
       header.style.backgroundColor= "#535252";
     } else if (header.style.backgroundColor= "#535252"){
       header.style.backgroundColor= "#bd3133"
