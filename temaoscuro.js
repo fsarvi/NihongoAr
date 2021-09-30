@@ -8,7 +8,8 @@ function cambiar_tema() {
     if (footer.style.backgroundColor = "red"){
       console.log("negro");
       footer.style.backgroundColor= "#535252";
-    } else {
+    }
+    else {
       console.log("rojo");
       footer.style.backgroundColor= "red";
     }
