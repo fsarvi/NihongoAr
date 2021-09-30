@@ -5,12 +5,12 @@ function cambiar_tema() {
 
   var footer = document.getElementById("footer");
   
-    if (footer.style.background-color == "#bd3133"){
+    if (footer.style.background-color = "#bd3133"){
       console.log("rojo");
       footer.style.background-color= "#535252";
     } else {
       console.log("negro");
-      footer.style.background-color= "#bd3133"
+      footer.style.background-color= "#bd3133";
     }
  }
 /*document.querySelector(".temaoscuro")
