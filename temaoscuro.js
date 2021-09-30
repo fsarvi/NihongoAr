@@ -8,6 +8,7 @@ function cambiar_tema() {
     if (footer.style.backgroundColor = "#bd3133"){
       footer.style.backgroundColor= "#535252";
     } else{
+      ALERT("CAMBIAR DE NEGRO A ROJO");
       footer.style.backgroundColor= "#bd3133"
     }
  }
