@@ -5,16 +5,15 @@ function cambiar_tema() {
 
   var footer = document.getElementById('footer');
   
-    if (footer.style.backgroundColor === '#bd3133'){
+    if (footer.style.backgroundColor === "#bd3133"){
       console.log("negro");
-      footer.style.backgroundColor= '#535252';
+      footer.style.backgroundColor= "#535252";
     }
     else {
       console.log("rojo");
-      footer.style.backgroundColor= '#bd3133';
+      footer.style.backgroundColor= "#bd3133";
     }
- }
-
+}
 /*document.querySelector(".temaoscuro")
   .addEventListener("click", cambiar_tema);
 
