@@ -5,10 +5,9 @@ function cambiar_tema() {
 
   var footer = document.getElementById("footer");
   
-    if (footer.style.backgroundColor == "#bd3133"){
+    if (footer.style.backgroundColor = "#bd3133"){
       alert("CAMBIAR DE ROJO A N");
       footer.style.backgroundColor= "#535252";
-    } else{
       alert("CAMBIAR DE NEGRO A ROJO");
       footer.style.backgroundColor= "#bd3133"
     }
