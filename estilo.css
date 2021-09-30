@@ -303,15 +303,23 @@ footer{
     .footer{
         display: flex;
         flex-direction: column;
-        justify-content: center;
-        justify-items: center;
-        font-size: 1.02em;
+        justify-content: space-between;
+        font-size: 0.8em;
         padding-bottom: 1em;
     }
     .footer >a>img{
         width: 14em;        
     }
-
+    #p_footer{
+        text-align: justify;
+    }
+    .contenedor_redes{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    
     .acercade{
         padding: 1.5em;
         gap: 1em;
