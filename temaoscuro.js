@@ -2,8 +2,8 @@ document.querySelector(".temaoscuro")
   .addEventListener("click", cambiar_tema);
 
 function cambiar_tema() {
-  const rojo = "#bd3133";
-  const oscuro = "#535252";
+  const rojo = '#bd3133';
+  const oscuro = '#535252';
   
   var footer = document.getElementById('footer');
   
