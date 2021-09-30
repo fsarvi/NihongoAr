@@ -2,16 +2,16 @@ document.querySelector(".temaoscuro")
   .addEventListener("click", cambiar_tema);
 
 function cambiar_tema() {
-
+  rojo = "#bd3133";
   var footer = document.getElementById('footer');
   
-    if (footer.style.backgroundColor == "#bd3133"){
+    if (footer.style.backgroundColor === rojo){
       console.log("negro");
       footer.style.backgroundColor= "#535252";
     }
     else {
       console.log("rojo");
-      footer.style.backgroundColor= "#bd3133";
+      footer.style.backgroundColor= "rojo;
     }
 }
 /*document.querySelector(".temaoscuro")
