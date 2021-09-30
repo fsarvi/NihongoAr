@@ -3,7 +3,7 @@ document.querySelector(".temaoscuro")
 
 function cambiar_tema() {
 
-  var footer = document.getElementById('#footer');
+  var footer = document.getElementById('footer');
   
     if (footer.style.backgroundColor = "red"){
       console.log("negro");
