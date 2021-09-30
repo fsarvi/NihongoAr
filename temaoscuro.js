@@ -2,7 +2,7 @@ document.querySelector(".temaoscuro")
   .addEventListener("click", cambiar_tema);
 
 function cambiar_tema() {
-  rojo = "#bd3133";
+ var rojo = "#bd3133";
   var footer = document.getElementById('footer');
   
     if (footer.style.backgroundColor == rojo){
