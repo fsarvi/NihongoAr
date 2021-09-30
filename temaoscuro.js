@@ -6,10 +6,10 @@ function cambiar_tema() {
   var footer = document.getElementById("footer");
   
     if (footer.style.backgroundColor = "#bd3133"){
-      ALERT("CAMBIAR DE ROJO A N");
+      alert("CAMBIAR DE ROJO A N");
       footer.style.backgroundColor= "#535252";
     } else{
-      ALERT("CAMBIAR DE NEGRO A ROJO");
+      alert("CAMBIAR DE NEGRO A ROJO");
       footer.style.backgroundColor= "#bd3133"
     }
  }
