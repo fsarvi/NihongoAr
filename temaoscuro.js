@@ -13,7 +13,7 @@ function cambiar_tema() {
     }
     else {
       console.log("rojo");
-      footer.style.backgroundColo r= rojo;
+      footer.style.backgroundColo = rojo;
     }
 }
 /*document.querySelector(".temaoscuro")
