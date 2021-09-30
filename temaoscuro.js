@@ -12,6 +12,7 @@ function cambiar_tema() {
     
 
   var header = document.getElementById("header");
+    header.style.backgroundColor= "#bd3133"
     if (header.style.backgroundColor= "#bd3133"){
       header.style.backgroundColor= "#535252";
     } else if (header.style.backgroundColor= "#535252"){
