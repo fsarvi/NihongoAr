@@ -11,7 +11,7 @@ function cambiar_tema() {
     }
     else {
       console.log("rojo");
-      footer.style.backgroundColor= "#bd3133";
+      footer.style.backgroundColor= "red";
     }
 }
 /*document.querySelector(".temaoscuro")
