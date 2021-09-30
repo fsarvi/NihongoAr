@@ -4,15 +4,14 @@ document.querySelector(".temaoscuro")
 function cambiar_tema() {
 
   var footer = document.getElementById('footer');
-  var rojo = '#bd3133';
-  var negro = '#535252';
-    if (footer.style.backgroundColor === 'rojo'){
+  
+    if (footer.style.backgroundColor === '#bd3133'){
       console.log("negro");
-      footer.style.backgroundColor= 'negro';
+      footer.style.backgroundColor= '#535252';
     }
     else {
       console.log("rojo");
-      footer.style.backgroundColor= 'rojo';
+      footer.style.backgroundColor= '#bd3133';
     }
  }
 
