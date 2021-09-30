@@ -16,7 +16,7 @@ function cambiar_tema() {
     if (header.style.backgroundColor= "#bd3133"){
       header.style.backgroundColor= "#535252";
     } else{
-      header.style.backgroundColor== "#bd3133"
+      header.style.backgroundColor= "#bd3133"
     }
     
 }
