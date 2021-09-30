@@ -1,0 +1,381 @@
+/*VARIABLES*/
+/*General*/ 
+*{
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+section{
+    width: 100%;
+}
+
+body{
+    background-image: url("imagenes/montefuji.jpg");
+    background-size: cover;
+}
+.nav_menu{
+    display: none;
+}
+.recursos{
+    display: none;
+}
+/*Fuente*/
+@import url('https://fonts.googleapis.com/css2?family=Arimo&display=swap');
+
+/*Header*/
+header{
+    background: #bd3133;
+    font-family: "Arimo", "Arial", "Serif";
+    width: 100%;
+    padding-bottom: 1em;
+    font-size: 1.30em;
+    text-align: center;
+}
+.menu_hamburguesa{
+    display: none;
+}
+.nav_logo > a > img{
+    align-items: center;
+    padding: 2% 0 0 0;
+    width: 15em;
+    max-width: 15em;
+    
+}
+
+.nav_enlaces > li{
+    text-shadow: 1px 1px 2px black;
+    position: relative;
+    list-style: none;
+    display: inline-block;
+    grid-column-end: span 1;
+    color:white;
+}
+.nav_enlaces >li >ul {
+    list-style: none;
+    display: none;
+    position: absolute;
+    background-color: #bd3133;
+    box-shadow: gray 0 0 2em;
+    border-radius: 0 0 7% 7%;    
+}
+
+.nav_enlaces  li:hover ul{
+    display: block;
+    width: 9em;
+    text-align: start;
+    padding: 5%;
+    color: white;
+    grid-column-end: span 2;
+}
+.temaoscuro{
+    cursor: pointer;
+    color:white;
+}
+
+/*Footer*/
+footer{
+    background: #bd3133;
+    font-family: "Arimo", "Arial","Serif";
+    width: 96%;
+    padding: 0% 2%;
+    color:white;
+    text-shadow: 1px 1px 2px black;
+}
+.arriba_boton{
+    cursor: pointer;
+    }
+
+/*GRILLAS*/
+
+.nav_enlaces{
+    display: grid;
+    grid-template-columns: repeat(6,2fr);
+    gap:2em;
+}
+#primer_enlace{
+    grid-column-start: 2;
+}
+
+
+.footer{
+    display: grid;
+    align-items: center;
+    gap: 2em;
+    grid-template-columns: repeat(3,4fr);
+    font-size: 1.3em;
+}
+.footer >a>img{
+    grid-column-start: 1;
+    grid-column-end: span 2;
+    width: 20em;
+    max-width: 20em;
+}
+.contenedor_redes{
+    display: grid;
+    grid-template-columns: repeat(3,2fr);
+
+}
+
+
+
+
+/* Acerca de. Grillas*/
+
+.acercade{
+    padding: 2em;
+    gap: 2em;
+    display: grid;
+    grid-template-columns: repeat(12,1fr);
+}
+
+.titulo{
+    padding: 2em;
+    display: grid;
+    grid-template-columns: repeat(12,1fr)
+}
+.titulo >h1{
+    padding: 1em 0 0 0;
+    font-size: 3em;
+    text-align: center;
+    color:white;
+    text-shadow: 1px 1px 2px black;
+    grid-column-start: 4;
+    grid-column-end: span 6;
+}
+
+.sobrepagina, .sobremi{
+    padding: 2em;
+    margin: 2em;
+    border-radius: 5px;
+    background-color:white;
+    grid-column-end: span 5;
+}
+
+.sobrepagina >h2, .sobremi>h2{
+    font-size: 1.5;
+    padding: 1em;
+    text-align: center;
+}
+.sobrepagina{
+    grid-column-start:2;
+}
+.p_acerca{
+    font-size: 1.3em;
+}
+
+/*Media QUERIES*/
+
+@media screen and (max-width:400px) {
+    /*Quiero hacer un menú hamburguesa*/
+    header{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        justify-items: center;
+        text-align: start;
+    }
+    .nav_enlaces{
+        display: none;
+    }
+    #saca_menu{
+        display: none;
+    }
+    
+    .nav_menu{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 1em;
+        list-style:none;
+        
+    }
+    .nav_menu li{
+        cursor: pointer;
+        color: white;
+        position: relative;
+    }
+    .menu_hamburguesa{   
+        display:none;
+        font-size: 0.9em;
+    }     
+    .nav_menu li:hover ul{
+        display: flex;
+        flex-direction: column;
+        list-style: none;
+        justify-items: center;
+        justify-content: center;
+        background-color: #bd3133;
+        border-radius: 7%;
+    }
+    .menu_hamburguesa >li{
+        cursor: pointer;
+        color: white;
+        padding: 1em;
+    }
+    .recursos{
+        display: none;
+        position: absolute;
+        list-style: none;
+        font-size: 0.8em;
+        background-color: #bd3133;
+        box-shadow: gray 0 0 2em;
+        border-radius: 0 0 7% 7%;
+        transition: all 0.2s ease-in;   
+    }
+    .menu_hamburguesa li:hover ul{
+        display: inline-block;
+        padding: 1em;
+        width: 9em;
+        color: white;
+        text-align: start;
+        background: #bd3133;
+        transform: translate(5%,-10%)  ;
+    }
+
+    body{
+        background-image: url("imagenes/montefuji.jpg");
+        background-size:cover;
+        width: 100%;
+    }
+    
+    .footer{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        font-size: 0.8em;
+        padding-bottom: 1em;
+    }
+    .footer >a>img{
+        width: 14em;        
+    }
+    #p_footer{
+        text-align: justify;
+    }
+    .contenedor_redes{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    
+    .acercade{
+        padding: 1.5em;
+        gap: 1em;
+        display: grid;
+        grid-template-columns: repeat(1,12fr);
+    }
+    .titulo >h1{
+        font-size: 2.3em;
+    }
+    .sobrepagina, .sobremi{
+        padding: 2em;
+        margin: 2em;
+        border-radius: 2.5%;
+        background-color:white ;
+        grid-column-end: span 12;
+    }
+    .sobrepagina{
+        grid-column-start:1;
+    }
+    
+}
+
+@media screen and (min-width:400px) and (max-width: 640px) {
+    
+    header{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        justify-items: center;
+    }
+    .nav_enlaces{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        justify-items: center;
+    }
+
+    
+    .footer{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        justify-items: center;
+        font-size: 1.02em;
+        padding-bottom: 1em;
+    }
+    .footer >a>img{
+        width: 14em;        
+    }
+
+    .acercade{
+        padding: 1.5em;
+        gap: 1em;
+        display: grid;
+        grid-template-columns: repeat(1,12fr);
+    }
+    .sobrepagina, .sobremi{
+        padding: 2em;
+        margin: 2em;
+        border-radius: 2.5%;
+        background-color:white ;
+        grid-column-end: span 12;
+    }
+    .sobrepagina{
+        grid-column-start:1;
+    }
+    
+    
+}
+
+
+@media screen and (min-width: 640px) and (max-width: 1280px) {
+    body{
+        background-image: url("imagenes/montefuji.jpg");
+        background-size:cover;
+    }
+    .titulo>h1{
+        color: white;
+        text-shadow: 1px 1px 2px black;
+    }
+    header{
+        padding-bottom: 1em;
+    }
+    
+    .footer { 
+        grid-template-columns: repeat(3,4fr);
+    }
+    .footer >a>img{
+        width: 12em;
+    }
+    .footer >p{
+        grid-column-end: span 2;
+    }
+    .contenedor_redes{
+        text-align: center;
+        grid-column-end: span 3;
+        padding-bottom: 1em;
+    }
+    .acercade{
+        padding: 1.5em;
+        gap: 1em;
+        display: grid;
+        grid-template-columns: repeat(1,12fr);
+    }
+    .sobrepagina, .sobremi{
+        padding: 2em;
+        margin: 2em;
+        border-radius: 2.5%;
+        background-color:white ;
+        grid-column-end: span 12;
+    }
+    .sobrepagina{
+        grid-column-start:1;
+    }
+
+}
+
