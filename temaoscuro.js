@@ -1,4 +1,4 @@
-/*document.querySelector(".temaoscuro")
+document.querySelector(".temaoscuro")
   .addEventListener("click", cambiar_tema);
 
 function cambiar_tema() {
@@ -13,9 +13,9 @@ function cambiar_tema() {
       console.log("rojo");
       footer.style.backgroundColor= "red";
     }
- }*/
+ }
 
-document.querySelector(".temaoscuro")
+/*document.querySelector(".temaoscuro")
   .addEventListener("click", cambiar_tema);
 
 function cambiar_tema() {
@@ -64,3 +64,4 @@ function cambiar_tema() {
     
 }
 
+*/
