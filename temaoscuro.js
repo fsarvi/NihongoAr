@@ -9,9 +9,8 @@ function cambiar_tema() {
       footer.style.backgroundColor= "#535252";
     } else{
       footer.style.backgroundColor= "#bd3133"
+    }
  }
-    
-}
 /*document.querySelector(".temaoscuro")
   .addEventListener("click", cambiar_tema);
 
