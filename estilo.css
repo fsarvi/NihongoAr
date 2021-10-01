@@ -348,7 +348,13 @@ footer{
         flex-direction: row;
         justify-content: space-around;
     }
-    
+    /*Formulario*/
+    .formulario{
+        width: 80%;
+        border-radius: 6%;
+        padding: 1.3em;
+    }
+    /*Acerca de*/
     .acercade{
         padding: 1.5em;
         gap: 1em;
