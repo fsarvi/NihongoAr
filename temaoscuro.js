@@ -7,13 +7,13 @@ function cambiar_tema() {
   
   var footer = document.getElementById('footer');
   
-    if (footer.style.background-color === "red"){
+    if (footer.style.backgroundColor === "red"){
       console.log("negro");
-      footer.style.background-color = "black";
+      footer.style.backgroundColor = "black";
     }
     else {
       console.log("rojo");
-      footer.style.background-color = "red";
+      footer.style.backgroundColor = "red";
     }
 
 }
