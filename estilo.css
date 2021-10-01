@@ -315,7 +315,7 @@ footer{
         justify-content: center;
         justify-items: center;
     }
-    head >a>img{
+    .nav_logo > a > img{
         margin-bottom: 1rem !important;
     }
     .nav_enlaces{
