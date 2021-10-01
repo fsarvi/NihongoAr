@@ -7,14 +7,15 @@ function cambiar_tema() {
   
   var footer = document.getElementById('footer');
   
-    if (footer.style.background-color === rojo){
+    if (footer.style.background-color === "red"){
       console.log("negro");
-      footer.style.background-color = oscuro;
+      footer.style.background-color = "black";
     }
     else {
       console.log("rojo");
-      footer.style.background-color = rojo;
+      footer.style.background-color = "red";
     }
+
 }
 /*document.querySelector(".temaoscuro")
   .addEventListener("click", cambiar_tema);
