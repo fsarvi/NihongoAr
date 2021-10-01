@@ -25,7 +25,7 @@ body{
 }
 
 label{
-    padding:2em;
+    padding:0.5em;
 }
 /*Fuente*/
 @import url('https://fonts.googleapis.com/css2?family=Arimo&display=swap');
