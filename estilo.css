@@ -23,6 +23,10 @@ body{
 .recursos{
     display: none;
 }
+
+label{
+    paddin:2em;
+}
 /*Fuente*/
 @import url('https://fonts.googleapis.com/css2?family=Arimo&display=swap');
 
