@@ -78,7 +78,8 @@ header{
 
 /*Contacto*/
 .container{
-    background-color:#535252;
+    width: 80%;
+    border-raiuds:5%
 }
 .formulario{
  background-color: white;
@@ -86,7 +87,8 @@ header{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    width: 50%
+    width: 50%;
+    border-radius: 5%
 }
 /*Footer*/
 footer{
