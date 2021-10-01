@@ -79,13 +79,13 @@ header{
 /*Contacto*/
 .container{
     background-color:#535252;
-    display:flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
 }
 .formulario{
  background-color: white;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 /*Footer*/
 footer{
