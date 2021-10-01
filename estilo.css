@@ -6,8 +6,8 @@
 }
 
 a{
-    text-decoration: none;
-    color: white;
+    text-decoration: none !important;
+    color: white !important;
 }
 section{
     width: 100%;
@@ -103,7 +103,7 @@ header{
 footer{
     background: #bd3133;
     font-family: "Arimo", "Arial","Serif";
-    width: 96%;
+    width: 100% !important;
     padding: 0% 2%;
     color:white;
     text-shadow: 1px 1px 2px black;
