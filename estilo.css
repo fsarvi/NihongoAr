@@ -189,6 +189,18 @@ footer{
 .p_acerca{
     font-size: 1.3em;
 }
+/*CANALES*/
+
+#principal{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: start;
+    text-alig: start;
+}
+
+
 
 /*Media QUERIES*/
 
