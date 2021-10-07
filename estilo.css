@@ -206,10 +206,10 @@ footer{
     
 }
 
-.canales >h2{
+.canal >h2{
     padding-bottom: 2em;
 }
-.canales > iframe{
+.canal > iframe{
     width: 30%;
 }
 
