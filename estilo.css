@@ -210,7 +210,8 @@ footer{
     padding-bottom: 2em;
 }
 .canal > iframe{
-    width: 30%;
+    width: 60%;
+    height:75%;
 }
 
 
