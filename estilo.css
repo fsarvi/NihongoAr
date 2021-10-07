@@ -192,6 +192,7 @@ footer{
 /*CANALES*/
 
 #principal{
+    padding: 2em;
     background-color: white;
     display: flex;
     flex-direction: column;
