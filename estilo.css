@@ -199,7 +199,7 @@ footer{
 .canal, .mensaje{
     padding: 2em;
     grid-column-start:3;
-    grid-column-end: span 9;
+    grid-column-end: span 8;
     background-color: white;
 }
 
