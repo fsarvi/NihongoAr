@@ -191,13 +191,7 @@ footer{
 }
 /*CANALES*/
 
-#principal{
-    width: 80%;
-    text-align: center;
-    align-items: center;
-}
 .canales{
-    background-color: white;
     display: grid;
     grid-template-columns: repeat(4,3fr);
 }
@@ -206,6 +200,7 @@ footer{
     padding: 2em;
     grid-column-start:2;
     grid-column-end: span 2;
+    background-color: white;
 }
 
 .canal >h2{
