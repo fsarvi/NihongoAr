@@ -191,11 +191,15 @@ footer{
 }
 /*CANALES*/
 
+#principal{
+    width: 80%;
+    text-align: center;
+    align-items: center;
+}
 .canales{
     background-color: white;
     display: grid;
     grid-template-columns: repeat(4,3fr);
-    width: 80%;
 }
 
 .canal, .mensaje{
@@ -206,6 +210,7 @@ footer{
 
 .canal >h2{
     padding-bottom: 2em;
+    font-size: 3em;
 }
 .canal > iframe{
     padding: 1em;
