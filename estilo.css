@@ -209,6 +209,8 @@ footer{
 }
 .canal > iframe{
     padding: 1em;
+    grid-column-start:4;
+    grid-column-end: span 7;
 }
 
 
