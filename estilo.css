@@ -193,13 +193,13 @@ footer{
 
 .canales{
     display: grid;
-    grid-template-columns: repeat(4,3fr);
+    grid-template-columns: repeat(12,1fr);
 }
 
 .canal, .mensaje{
-    padding: 2em 5em;
-    grid-column-start:2;
-    grid-column-end: span 2;
+    padding: 2em;
+    grid-column-start:3;
+    grid-column-end: span 6;
     background-color: white;
 }
 
