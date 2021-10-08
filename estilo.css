@@ -197,7 +197,7 @@ footer{
     grid-template-columns: repeat(4,3fr);
 }
 
-.canal, mensaje{
+.canal, .mensaje{
     padding: 2em;
     grid-column-start:2;
     grid-column-end: span 2;
