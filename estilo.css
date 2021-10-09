@@ -197,7 +197,7 @@ footer{
 }
 
 .canal, .mensaje{
-    position: relative;
+    position: absolute;
     padding: 2em 5em;
     grid-column-start:3;
     grid-column-end: span 8;
@@ -210,7 +210,7 @@ footer{
 }
 .video{
     padding: 1em;
-    position: absolute;
+    position: relative;
     width: 90%;
     height: 80%;
 }
