@@ -211,6 +211,10 @@ footer{
     padding-top: 1em;
     font-size: 1.3em;
 }
+.mensaje{
+    font-family: "Arimo", "Arial","Serif";
+    font-size: 1em;
+}
 .video{
     position: relative;
     padding-bottom: 56.25%; /* 16:9 */
