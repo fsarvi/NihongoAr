@@ -66,6 +66,7 @@ header{
     background: gray;
     padding: 1em;
     font-size: 0.9em;
+    text-align: start;
    /* visibility: hidden;*/
 }
 .nav_enlaces  li:hover ul{
