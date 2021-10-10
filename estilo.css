@@ -61,7 +61,7 @@ header{
     list-style: none;
     display: flex;
     flex-direction: column;
-    justify-content: start;
+    justify-content: left;
     background: gray;
     padding: 1em;
    /* visibility: hidden;*/
