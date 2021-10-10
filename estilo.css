@@ -65,6 +65,7 @@ header{
     justify-content: left;
     background: gray;
     padding: 1em;
+    font-size: 0.8em;
    /* visibility: hidden;*/
 }
 .nav_enlaces  li:hover ul{
