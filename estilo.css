@@ -68,6 +68,7 @@ header{
     text-align: start;
     padding: 5%;
     color: white;
+    visibility: visible;
 }
 .temaoscuro{
     cursor: pointer;
