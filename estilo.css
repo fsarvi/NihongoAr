@@ -88,6 +88,7 @@ header{
     transition-duration: 4s;
     transition-delay: 2s;
     font-size: 36px;
+}
 
 .temaoscuro{
     cursor: pointer;
