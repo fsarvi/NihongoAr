@@ -64,15 +64,14 @@ header{
     display: flex;
     flex-direction: column;
     justify-content: left;
+    wrap: wrap;
     background: gray;
     padding: 1em;
     font-size: 0.9em;
     text-align: start;
     display: none;
 }
-.nav_enlaces >li>ul> a{
-    padding-bottom: 15px;
-}
+
 .nav_enlaces  li:hover ul{
     display: block;
     position: absolute;
