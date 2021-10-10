@@ -70,8 +70,8 @@ header{
     text-align: start;
     display: none;
 }
-.nan_enlaces >li>ul> a{
-    
+.nav_enlaces >li>ul> a{
+    padding-bottom: 15px;
 }
 .nav_enlaces  li:hover ul{
     display: block;
