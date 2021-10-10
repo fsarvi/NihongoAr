@@ -92,6 +92,7 @@ header{
 
 #Recursos >ul> li:hover a{
     opacity: .7;
+    animation: trasladar 4s infinite linear;
 }
 
 .temaoscuro{
