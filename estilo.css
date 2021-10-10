@@ -84,12 +84,11 @@ header{
 
 #Recursos >ul> li:hover a{
     opacity: .7;
-    transform : scale(2);
-    -moz-transform : scale (1.2); /* Firefox */
-    -webkit-transform : scale (1.2); /* Chrome - Safari */
-    -o-transform : scale (1.2); /* Opera */
-    -ms-transform : scale (1.2); /* IE9 */
-}
+    transition-property: font-size;
+    transition-duration: 4s;
+    transition-delay: 2s;
+    font-size: 36px;
+
 .temaoscuro{
     cursor: pointer;
     color:white;
