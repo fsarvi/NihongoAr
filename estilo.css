@@ -72,6 +72,7 @@ header{
     width: 9em;
     color: white;
     visibility: visible;
+    text-transform: uppercase;
 }
 .temaoscuro{
     cursor: pointer;
