@@ -59,7 +59,10 @@ header{
 
 .nav_enlaces >li >ul{
     list-style: none;
+    display: flex;
+    flex-direction: column;
     justify-content: start;
+    background: gray;
    /* visibility: hidden;*/
 }
 .nav_enlaces  li:hover ul{
