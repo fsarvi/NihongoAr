@@ -82,7 +82,7 @@ header{
     transition: all 0.2s ease-in;
 }
 
-#Recursos >ul:hover li{
+#Recursos >ul> li:hover a{
     opacity: .7;
     transform : scale(2);
     -moz-transform : scale (2); /* Firefox */
