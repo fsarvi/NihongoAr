@@ -68,7 +68,7 @@ header{
     padding: 1em;
     font-size: 0.9em;
     text-align: start;
-    display: none;
+    /*display: none;*/
 }
 
 .nav_enlaces  li:hover ul{
