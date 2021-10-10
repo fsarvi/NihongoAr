@@ -50,32 +50,6 @@ header{
     
 }
 
-/* .nav_enlaces > li{
-    text-shadow: 1px 1px 2px black;
-    position: relative;
-    list-style: none;
-    display: inline-block;
-    grid-column-end: span 1;
-    color:white;
-}
-.nav_enlaces >li >ul {
-    list-style: none;
-    display: none;
-    position: absolute;
-    background-color: #bd3133;
-    box-shadow: gray 0 0 2em;
-    border-radius: 0 0 7% 7%;    
-}
-
-.nav_enlaces  li:hover ul{
-    display: block;
-    width: 9em;
-    text-align: start;
-    padding: 5%;
-    color: white;
-    grid-column-end: span 2;
-}*/
-
 .nav_enlaces{
     display: flex;
     flex-direction: row;
@@ -88,7 +62,13 @@ header{
     list-style: none;
     visibility: hidden;
 }
-
+.nav_enlaces  li:hover ul{
+    display: block;
+    width: 9em;
+    text-align: start;
+    padding: 5%;
+    color: white;
+}
 .temaoscuro{
     cursor: pointer;
     color:white;
