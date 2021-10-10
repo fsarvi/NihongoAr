@@ -80,7 +80,7 @@ header{
 }
 
 .nav_enlaces  li:hover ul{
-    display: inline-block;
+    display: block;
     position: absolute;
     color: white;
 }
