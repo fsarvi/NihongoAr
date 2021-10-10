@@ -65,6 +65,7 @@ header{
     display: block;
     width: 9em;
     padding: 5%;
+    padding-left: 8%;
     color: white;
     visibility: visible;
     display: flex;
