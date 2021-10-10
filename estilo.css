@@ -69,7 +69,7 @@ header{
     visibility: visible;
     display: flex;
     flex-direction: column;
-    justify-content: end;
+    justify-content: start;
 }
 .temaoscuro{
     cursor: pointer;
