@@ -74,6 +74,7 @@ header{
     padding: 5%;
     color: white;
     grid-column-end: span 2;
+    background: #e51a1d;
 }
 .temaoscuro{
     cursor: pointer;
