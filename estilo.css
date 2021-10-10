@@ -35,7 +35,6 @@ header{
     background-color: #bd3133;
     font-family: "Arimo", "Arial", "Serif";
     width: 100%;
-    
     font-size: 1.30em;
     text-align: center;
 }
@@ -65,13 +64,12 @@ header{
 .nav_enlaces  li:hover ul{
     display: block;
     width: 9em;
-    text-align: start;
     padding: 5%;
     color: white;
     visibility: visible;
     display: flex;
     flex-direction: column;
-    text-align: center;
+    justify-content: end;
 }
 .temaoscuro{
     cursor: pointer;
