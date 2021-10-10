@@ -77,7 +77,7 @@ header{
     color: white;
 }
 #Recursos >ul>li:hover a{
-    transform: translatex(5%);
+    transform: translatex(-15px);
     opacity: .7;
 }
 .temaoscuro{
