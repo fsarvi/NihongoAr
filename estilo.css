@@ -69,7 +69,6 @@ header{
     visibility: visible;
     display: flex;
     flex-direction: column;
-    justify-content: start;
 }
 .temaoscuro{
     cursor: pointer;
@@ -112,15 +111,6 @@ footer{
     }
 
 /*GRILLAS*/
-
-.nav_enlaces{
-    display: grid;
-    grid-template-columns: repeat(6,2fr);
-    gap:2em;
-}
-#primer_enlace{
-    grid-column-start: 2;
-}
 
 
 .footer{
