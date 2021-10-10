@@ -59,7 +59,7 @@ header{
 
 .nav_enlaces >li >ul{
     list-style: none;
-    
+    justify-content: start;
    /* visibility: hidden;*/
 }
 .nav_enlaces  li:hover ul{
