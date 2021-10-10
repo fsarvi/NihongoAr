@@ -1,4 +1,12 @@
-/*VARIABLES*/
+/*Key*/
+@keyframes trasladar {
+  from {
+    transform: translate(0, 0);
+  }
+  to {
+    transform: translate(-3%, 0);
+  }
+}
 /*General*/ 
 *{
     margin: 0;
