@@ -69,7 +69,6 @@ header{
     font-size: 0.9em;
     text-align: start;
     display: none;
-    margin: 1em;
 }
 
 .nav_enlaces  li:hover ul{
