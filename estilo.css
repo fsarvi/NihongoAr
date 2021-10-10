@@ -78,7 +78,7 @@ header{
 }
 #Recursos >ul>li:hover a{
     opacity: .7;
-    transform: translatex(15px);
+    transform: translatex(-20px);
 }
 .temaoscuro{
     cursor: pointer;
