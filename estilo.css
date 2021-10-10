@@ -64,8 +64,7 @@ header{
     display: flex;
     flex-direction: column;
     justify-content: left;
-    wrap: wrap;
-    background: gray;
+    background: #bd3133;
     padding: 1em;
     font-size: 0.9em;
     text-align: start;
