@@ -59,16 +59,14 @@ header{
 
 .nav_enlaces >li >ul{
     list-style: none;
+    
    /* visibility: hidden;*/
 }
 .nav_enlaces  li:hover ul{
     display: block;
     width: 9em;
-    padding: 5% 8%;
     color: white;
     visibility: visible;
-    display: flex;
-    flex-direction: column;
 }
 .temaoscuro{
     cursor: pointer;
