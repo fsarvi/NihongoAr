@@ -76,6 +76,9 @@ header{
     position: absolute;
     color: white;
 }
+.nav_enlaces >li>ul:hover <{
+    transform: translatex(-15px);
+}
 .temaoscuro{
     cursor: pointer;
     color:white;
