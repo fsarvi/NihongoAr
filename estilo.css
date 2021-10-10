@@ -65,15 +65,14 @@ header{
     justify-content: left;
     background: gray;
     padding: 1em;
-    font-size: 0.8em;
+    font-size: 0.9em;
    /* visibility: hidden;*/
 }
 .nav_enlaces  li:hover ul{
     display: block;
-    width: 9em;
+    width: 1em;
     color: white;
     visibility: visible;
-    text-transform: uppercase;
 }
 .temaoscuro{
     cursor: pointer;
