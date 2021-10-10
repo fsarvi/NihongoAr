@@ -76,18 +76,21 @@ header{
     position: absolute;
     color: white;
 }
+
+#Recursos{
+    cursor: pointer;
+    transition: all 0.2s ease-in;
+}
+
 #Recursos >ul>li:hover a{
     opacity: .7;
-    transform: translate (-3px);
+    transform: translate(-3px);
 }
 .temaoscuro{
     cursor: pointer;
     color:white;
 }
-#Recursos{
-    cursor: pointer;
-    transition: all 0.2s ease-in;
-}
+
 
 /*Contacto*/
 .container{
