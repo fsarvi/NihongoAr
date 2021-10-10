@@ -71,7 +71,7 @@ header{
     display: none;
 }
 .nan_enlaces >li>ul> a{
-    padding-bottom: 15px;
+    padding-bottom: 0.3em;
 }
 .nav_enlaces  li:hover ul{
     display: block;
