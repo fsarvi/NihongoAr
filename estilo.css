@@ -84,6 +84,11 @@ header{
     color: white;
 }
 
+.nav_enlaces >li >ul{
+    list-style: none;
+    visibility: hidden;
+}
+
 .temaoscuro{
     cursor: pointer;
     color:white;
