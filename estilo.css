@@ -84,10 +84,6 @@ header{
 
 #Recursos >ul> li:hover a{
     opacity: .7;
-    transition-property: font-size;
-    transition-duration: 4s;
-    transition-delay: 2s;
-    font-size: 2px;
 }
 
 .temaoscuro{
