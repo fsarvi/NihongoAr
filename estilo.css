@@ -379,6 +379,13 @@ footer{
   .container, .formulario{
     width: 95%;
   }
+  /*CANALES*/
+  .canal, .mensaje {
+    padding: 1em;
+    grid-column-start: 2;
+    grid-column-end: span 9;
+    background-color: white;
+}
   
 }
 
