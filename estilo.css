@@ -256,6 +256,17 @@ footer{
     padding-bottom: 1.2em;
 }
 /*PAGINAS*/
+.paginas{
+    display: grid;
+    grid-template-columns: repeat(12,1fr);
+}
+.pagina{
+    padding: 2em 5em;
+    grid-column-start:3;
+    grid-column-end: span 8;
+    background-color: white;
+  
+}
 .pagina > .video{
     position: relative;
     padding-bottom: 56.25%; /* 16:9 */
