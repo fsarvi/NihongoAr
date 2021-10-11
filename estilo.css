@@ -267,10 +267,7 @@ footer{
     grid-column-end: span 8;
     background-color: white;
 }
-.pagina > .contenedor_pagina{
-    display: flex;
-    flex-direction: row;
-}
+
 .pagina > .contenedor_iframe{
     position: relative;
     padding-bottom: 56.25%; /* 16:9 */
