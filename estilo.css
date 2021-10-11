@@ -383,7 +383,7 @@ footer{
   .canal, .mensaje {
     padding: 1em;
     grid-column-start: 2;
-    grid-column-end: span 9;
+    grid-column-end: span 10;
     background-color: white;
 }
   
