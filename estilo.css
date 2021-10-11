@@ -354,19 +354,22 @@ footer{
     }
     
     .acercade{
-        padding: 1.5em;
-        gap: 1em;
+        padding: 1em;
+        gap: inherit;
         display: grid;
-        grid-template-columns: repeat(1,12fr);
+        grid-template-columns: repeat(12,1fr);
     }
     .titulo >h1{
         font-size: 2.3em;
+        grid-column-start: 3;
+        grid-column-end: span 8;
     }
     .sobrepagina, .sobremi{
-        padding: 2em;
-        margin: 2em;
+        padding: 1em;
+        margin: 1em;
         border-radius: 2.5%;
         background-color:white ;
+        grid-column-start: 1;
         grid-column-end: span 12;
     }
     .sobrepagina{
