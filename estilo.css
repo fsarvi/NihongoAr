@@ -263,7 +263,7 @@ footer{
 }
 .contenedor_pagina{
     display:grid;
-    grid-template-columns: repeat(2, 6fr);
+    grid-template-columns: repeat(12, 1fr);
 }
 .pagina{
     padding: 2em 5em;
@@ -282,8 +282,8 @@ footer{
     position: absolute;
     top: 0;
     left: 0;
-    width: 50%;
-    height: 100%;
+    width: 80%;
+    height: 60%;
     padding-bottom: 1em;
 }
 
