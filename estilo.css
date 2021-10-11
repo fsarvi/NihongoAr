@@ -420,6 +420,14 @@ footer{
     font-size: 1.8em;
   }
   
+  /*PAGINAS*/
+  .pagina{   
+    padding: 1em;
+    grid-column-start:2;
+    grid-column-end: span 10;
+    background-color: white;
+  }
+  
   
 }
 
