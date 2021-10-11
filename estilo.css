@@ -268,7 +268,7 @@ footer{
     background-color: white;
 }
 .contenedor_pagina >p{
-  padding-top: 1em;
+  padding: 1em 1em 1em 0;
   font-size: 1.2em;
 }
 
