@@ -372,6 +372,10 @@ footer{
     .sobrepagina{
         grid-column-start:1;
     }
+  /*Contacto*/
+  .container{
+    width: 90%;
+  }
     
 }
 
