@@ -272,6 +272,9 @@ footer{
   padding: 1em 1em 1em 0;
   font-size: 1.2em;
 }
+.contenedor_pagina >p>a{
+  background-color: gray;
+}
 
 .contenedor_iframe{
     position: relative;
