@@ -273,7 +273,7 @@ footer{
   font-size: 1.2em;
 }
 .contenedor_pagina >p>a{
-  background-color: gray;
+  color: #bd3133 !important;
 }
 
 .contenedor_iframe{
