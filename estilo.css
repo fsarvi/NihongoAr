@@ -374,7 +374,7 @@ footer{
     }
   /*Contacto*/
   .container, .formulario{
-    width: 90%;
+    width: 95%;
   }
   
 }
@@ -451,6 +451,10 @@ footer{
     }
     .sobrepagina{
         grid-column-start:1;
+    }
+    /*Contacto*/
+    .container, .formulario{
+      width: 95%;
     }
     
     
