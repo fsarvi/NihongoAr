@@ -437,7 +437,7 @@ footer{
     width: 100%;
     height: 100%;
     padding-bottom: 1em;
-}
+  }
   
 }
 
@@ -524,6 +524,21 @@ footer{
      }
     .canal >h2{
       font-size: 1.8em;
+    }
+    /*PAGINAS*/
+    .pagina{   
+      padding: 1em;
+      grid-column-start:2;
+      grid-column-end: span 10;
+      background-color: white;
+    }
+    .contenedor_iframe >iframe {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      padding-bottom: 1em;
     }
   
     
