@@ -101,7 +101,7 @@ header{
 
 #Recursos >ul> li:hover a{
     opacity: .7;
-    animation: trasladar 4s linear;
+    animation: trasladar 2s 1 linear;
 }
 
 .temaoscuro{
@@ -113,7 +113,7 @@ header{
   transition: all 0.2s ease-in;
 }
 .titulo >h1{
-  animation: escalar 4s 1 linear;
+  animation: escalar 3s 1 linear;
 }
 
 
