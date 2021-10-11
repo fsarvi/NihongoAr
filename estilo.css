@@ -7,6 +7,15 @@
     transform: translate(-3px, 0);
   }
 }
+@keyframes escalar {
+  from {
+    transform: scale(0);
+  }
+  to {
+    transform: scale(2);
+  }
+}
+
 /*General*/ 
 *{
     margin: 0;
@@ -99,6 +108,13 @@ header{
     cursor: pointer;
     color:white;
 }
+/*INDEX*/
+.titulo{
+  transition: all 0.2s ease-in;
+}
+.titulo >h1{
+  animation: escalar 4s infinite linear;
+}
 
 
 /*Contacto*/
@@ -133,7 +149,7 @@ footer{
     cursor: pointer;
     }
 
-/*GRILLAS*/
+/*footer*/
 
 
 .footer{
@@ -201,6 +217,7 @@ footer{
 .p_acerca{
     font-size: 1.3em;
 }
+
 /*CANALES*/
 
 .canales{
