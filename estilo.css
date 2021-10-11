@@ -271,13 +271,13 @@ footer{
     display: flex;
     flex-direction: row;
 }
-.pagina > .video{
+.pagina > .contenedor_iframe{
     position: relative;
     padding-bottom: 56.25%; /* 16:9 */
     padding-top: 25px;
     height: 0;
 }
-.video >iframe {
+.contenedor_iframe >iframe {
     position: absolute;
     top: 0;
     left: 0;
