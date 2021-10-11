@@ -373,10 +373,10 @@ footer{
         grid-column-start:1;
     }
   /*Contacto*/
-  .container{
+  .container, .formulario{
     width: 90%;
   }
-    
+  
 }
 
 @media screen and (min-width:401px) and (max-width: 640px) {
