@@ -267,7 +267,7 @@ footer{
     grid-column-end: span 8;
     background-color: white;
 }
-.contenedor_pagina{
+.pagina > .contenedor_pagina{
     display: flex;
     flex-direction: row;
 }
