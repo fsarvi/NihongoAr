@@ -271,6 +271,11 @@ footer{
     grid-column-end: span 8;
     background-color: white;
 }
+.contenedor_pagina >p{
+    grid-column-start:1;
+    grid-column-end: span 12;
+    position: absolute;
+}
 
 .pagina > .contenedor_iframe{
     position: relative;
