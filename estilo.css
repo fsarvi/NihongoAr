@@ -282,10 +282,9 @@ footer{
     position: absolute;
     top: 0;
     left: 0;
-    width: 100%;
+    width: 95%;
     height: 100%;
     padding-bottom: 1em;
-    margin: 2em;
 }
 
 /*Media QUERIES*/
