@@ -262,10 +262,14 @@ footer{
     grid-template-columns: repeat(12,1fr);
 }
 .pagina{   
-    padding: 2em;
+    padding: 3em;
     grid-column-start:2;
     grid-column-end: span 10;
     background-color: white;
+}
+.contenedor_pagina >p{
+  padding-top: 1em;
+  font-size: 1.2em;
 }
 
 .contenedor_iframe{
@@ -278,9 +282,10 @@ footer{
     position: absolute;
     top: 0;
     left: 0;
-    width: 80%;
+    width: 90%;
     height: 60%;
     padding-bottom: 1em;
+    margin: 2em;
 }
 
 /*Media QUERIES*/
