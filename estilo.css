@@ -264,6 +264,7 @@ footer{
 .contenedor_pagina{
     display:grid;
     grid-template-columns: repeat(12, 1fr);
+    position: absolute;
 }
 .pagina{
     padding: 2em 5em;
@@ -273,8 +274,6 @@ footer{
 }
 .contenedor_pagina >p{
     grid-column-start:1;
-    grid-column-end: span 12;
-    position: absolute;
 }
 
 .pagina > .contenedor_iframe{
