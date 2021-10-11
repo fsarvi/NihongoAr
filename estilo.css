@@ -266,10 +266,11 @@ footer{
     grid-column-start:3;
     grid-column-end: span 8;
     background-color: white;
-    display: flex;
-    flex-direction: row;  
 }
-
+.contenedor_pagina{
+    display: flex;
+    flex-direction: row;
+}
 .pagina > .video{
     position: relative;
     padding-bottom: 56.25%; /* 16:9 */
