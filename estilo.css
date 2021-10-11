@@ -261,6 +261,10 @@ footer{
     display: grid;
     grid-template-columns: repeat(12,1fr);
 }
+.contenedor_pagina{
+    display:grid;
+    grid-template-columns: repeat(2, 6fr);
+}
 .pagina{
     padding: 2em 5em;
     grid-column-start:3;
