@@ -1,5 +1,6 @@
 function temaOscuro(){
   var fondo = document.querySelector(".footer").style.backgroundColor;
+  alert(fondo);
   if (fondo === '#bd3133'){
     console.log("negro");
     document.querySelector(".footer").style.backgroundColor = '#535252';
