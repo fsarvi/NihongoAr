@@ -1,4 +1,14 @@
-document.querySelector(".temaoscuro")
+function temaOscuro(){
+  var fondo = document.querySelector(".footer").style.backgroundColor;
+  if (fondo === '#bd3133'){
+    document.querySelector(".footer").style.backgroundColor = '#535252';
+  }
+  else {
+    document.querySelector(".footer").style.backgroundColor = '#bd3133';
+  }
+}
+
+/*document.querySelector(".temaoscuro")
   .addEventListener("click", cambiar_tema);
 
 function cambiar_tema() {
@@ -17,53 +27,4 @@ function cambiar_tema() {
     }
 
 }
-/*document.querySelector(".temaoscuro")
-  .addEventListener("click", cambiar_tema);
-
-function cambiar_tema() {
-
-  var footer = document.getElementById('footer');
-    if (footer.style.backgroundColor === "#bd3133"){
-      footer.style.backgroundColor = "#535252";
-    }
-    else{
-      footer.style.backgroundColor = "#bd3133"
-    }
-    
-
-  var header = document.getElementById('header');
-    
-    if (header.style.backgroundColor === "#bd3133"){
-      header.style.backgroundColor = "#535252";
-    }
-    else{
-      header.style.backgroundColor = "#bd3133"
-    }
-    
-}
-
-document.querySelector("#tema_oscuro_menu")
-  .addEventListener("click", cambiar_tema);
-
-function cambiar_tema() {
-
-  var footer = document.getElementById('footer');
-    if (footer.style.backgroundColor === "#bd3133"){
-      footer.style.backgroundColor = "#535252";
-    }
-    else{
-      footer.style.backgroundColor = "#bd3133"
-    }
-    
-
-  var header = document.getElementById('header');
-    if (header.style.backgroundColor === "#bd3133"){
-      header.style.backgroundColor= "#535252";
-    }
-    else{
-      header.style.backgroundColor= "#bd3133"
-    }
-    
-}
-
 */
