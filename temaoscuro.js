@@ -1,9 +1,11 @@
 function temaOscuro(){
   var fondo = document.querySelector(".footer").style.backgroundColor;
   if (fondo === '#bd3133'){
+    console.log("negro");
     document.querySelector(".footer").style.backgroundColor = '#535252';
   }
   else {
+    console.log("rojo");
     document.querySelector(".footer").style.backgroundColor = '#bd3133';
   }
 }
