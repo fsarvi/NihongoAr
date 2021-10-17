@@ -9,9 +9,10 @@ function temaOscuro(){
  
     document.querySelector(".footer").style.backgroundColor = '#bd3133';
   }
+  
   var header = document.querySelector(".header").style.backgroundColor;
 
-  if (fondo1 === "rgb(189, 49, 51)"){
+  if (header === "rgb(189, 49, 51)"){
 
     document.querySelector(".header").style.backgroundColor = '#535252';
   }
