@@ -19,14 +19,14 @@
   0% {margin-left:0;}
   20% {margin-left:0;}
   
-  25% {margin-left:-50%;}
-  45% {margin-left:-50%;}
+  25% {margin-left:-25%;}
+  45% {margin-left:-25%;}
   
-  50% {margin-left:-100%;}
-  70% { margin-left:-100%;}
+  50% {margin-left:-50%;}
+  70% { margin-left:-50%;}
   
-  75% {margin-left:-200%;}
-  100% {margin-left:-200%;}
+  75% {margin-left:-100%;}
+  100% {margin-left:-100%;}
 }
 
 /*General*/ 
