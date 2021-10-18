@@ -15,31 +15,18 @@
     transform: scale(1);
   }
 }
-@keyframes slider {
-  0% {
-      margin-left:0;
-  }
-  20% {
-      margin-left:0;
-  }
-  25% {
-      margin-left:-100;
-  }
-  45% {
-      margin-left:-100;
-  }
-  50% {
-      margin-left:-200;
-  }
-  70% {
-      margin-left:-200;
-  }
-  75% {
-      margin-left:-300;
-  }
-  100% {
-      margin-left:-300;
-  }
+@keyframes deslizar {
+  0% {margin-left:0;}
+  20% {margin-left:0;}
+  
+  25% {margin-left:-100%;}
+  45% {margin-left:-100%;}
+  
+  50% {margin-left:-200%;}
+  70% { margin-left:-200%;}
+  
+  75% {margin-left:-300%;}
+  100% {margin-left:-300%;}
 }
 
 /*General*/ 
@@ -150,7 +137,7 @@ header{
 .imagenes_slider ul{
   display: flex;
   width: 400%;
-  animation: slider 20s infinite alternate linear;
+  animation: deslizar 20s infinite alternate linear;
 }
 .imagenes_slider li{
   width: 100%;
