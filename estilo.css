@@ -310,14 +310,14 @@ footer{
 .canales{
     display: grid;
     grid-template-columns: repeat(12,1fr);
+    background-color: white;
+    border-radius: 1em;
 }
 
 .canal, .mensaje{
     padding: 2em 5em;
     grid-column-start:2;
     grid-column-end: span 10;
-    background-color: white;
-    border-radius: 1em;
 }
 
 .canal >h2{
