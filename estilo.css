@@ -578,7 +578,7 @@ footer{
   display: flex;
   width: 1000%;
   height: 1000%;
-  animation: deslizar_chico 40s infinite alternate linear;
+  animation: deslizar_chico 40s infinite alternate ease-in;
   
 }
 
