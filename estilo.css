@@ -185,6 +185,10 @@ header{
     border-radius: 1em;
     background: #bd3133;
 }
+.cajita{
+    width: 250px;
+    position: relative;
+}
 /*Contacto*/
 .container{
     width: 80%;
