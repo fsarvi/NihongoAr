@@ -133,6 +133,7 @@ header{
   width: 95%;
   background: white;
   margin: auto;
+  border-radius: 1em;
 }
 
 .texto p{
