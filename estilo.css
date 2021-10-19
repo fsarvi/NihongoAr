@@ -129,8 +129,13 @@ header{
   animation: escalar 3s 1 linear;
 }
 
-.imagenes_slider{
+.body{
   width: 95%;
+   background: white;
+}
+
+.imagenes_slider{
+  width: 90%;
   margin: auto;
   overflow: hidden;
 }
