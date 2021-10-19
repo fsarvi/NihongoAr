@@ -181,6 +181,7 @@ header{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    padding: 1em;
 }
 .cajita{
     width: 20em;
