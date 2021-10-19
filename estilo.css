@@ -367,6 +367,7 @@ footer{
     grid-column-end: span 10;
     background-color: white;
     padding-left: 4em;
+    border-radius: 1em;
 }
 .contenedor_pagina >p{
   padding: 1em 1em 1em 0;
