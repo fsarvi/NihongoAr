@@ -135,6 +135,9 @@ header{
   margin: auto;
 }
 
+.texto{
+  color: '#535252';
+}
 .imagenes_slider{
   width: 90%;
   margin: auto;
