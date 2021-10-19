@@ -162,6 +162,7 @@ header{
   width: 90%;
   margin: auto;
   overflow: hidden;
+  padding: 1em;
 }
 .imagenes_slider ul{
   display: flex;
