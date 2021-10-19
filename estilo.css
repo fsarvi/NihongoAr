@@ -144,10 +144,9 @@ header{
 .texto >p:first-of-type:first-letter{
     float: left;
     font-size: 5em;
-    line-height: .8;
+    line-height: .6;
     margin: 5px 10px 5px 0;
     text-transform: uppercase;
-    color: #000;
 }
 .imagenes_slider{
   width: 90%;
