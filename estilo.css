@@ -137,6 +137,8 @@ header{
 
 .texto{
   color: '#535252';
+  padding: 2em;
+  font-size: 2em;
 }
 .imagenes_slider{
   width: 90%;
