@@ -261,10 +261,7 @@ footer{
 
 }
 
-
-
-
-/* Acerca de. Grillas*/
+/* Acerca de*/
 
 .acercade{
     padding: 2em;
@@ -317,9 +314,10 @@ footer{
 
 .canal, .mensaje{
     padding: 2em 5em;
-    grid-column-start:3;
-    grid-column-end: span 8;
+    grid-column-start:2;
+    grid-column-end: span 11;
     background-color: white;
+    border-radius: 1em;
 }
 
 .canal >h2{
