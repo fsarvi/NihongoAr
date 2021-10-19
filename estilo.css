@@ -358,6 +358,8 @@ footer{
 .contenedor_pag_principal{
   background-color: white;
   border-radius: 1em;
+  grid-column-start:2;
+  grid-column-end: span 10;
 }
 .pagina{   
     padding: 3em;
