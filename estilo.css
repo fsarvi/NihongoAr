@@ -137,9 +137,10 @@ header{
 }
 
 .texto p{
-  color: '#535252';
+  color: "#535252";
   padding: 2em;
   font-size: 1.5em;
+  margin: auto;
 }
 .texto >p:first-of-type:first-letter{
     float: left;
