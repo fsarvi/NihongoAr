@@ -114,7 +114,6 @@ header{
 
 #Recursos >ul> li:hover a{
     opacity: .7;
-    animation: trasladar 2s 1 linear;
 }
 
 .temaoscuro{
