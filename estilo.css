@@ -28,6 +28,19 @@
   75% {margin-left:-100%;}
   100% {margin-left:-100%;}
 }
+@keyframes deslizar_chico {
+  0% {margin-left:0;}
+  20% {margin-left:0;}
+  
+  25% {margin-left:-100%;}
+  45% {margin-left:-100%;}
+  
+  50% {margin-left:-200%;}
+  70% { margin-left:-200%;}
+  
+  75% {margin-left:-300%;}
+  100% {margin-left:-300%;}
+}
 @keyframes revotar{
   from {
     transform: translate(0px, 0px);
@@ -540,6 +553,19 @@ footer{
     height: 100%;
     padding-bottom: 1em;
   }
+  
+  /*INDEX*/
+  
+  .imagenes_slider{
+  width: 90%;
+  margin: auto;
+  overflow: hidden;
+  padding: 1.2em;
+}
+.imagenes_slider ul{
+  display: flex;
+  width: 400%;
+  animation: deslizar_chico 20s infinite alternate linear;
   
 }
 
