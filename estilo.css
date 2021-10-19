@@ -207,7 +207,7 @@ header{
     align-items: center;
     overflow: hidden;
     border-radius: 1em;
-    animation: revotar 1s infinite linear;
+    animation: revotar 0.5s infinite ease-in;
 }
 /*Contacto*/
 .container{
