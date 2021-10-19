@@ -188,7 +188,7 @@ header{
     border-radius: 1em;
     background: #bd3133;
     padding: 1em;
-  
+    margin: 1em;
 }
 .cajita:hover{
     background-color: #535252;
