@@ -184,13 +184,11 @@ header{
 }
 .cajita{
     width: 250px;
-    position: relative;
     border-radius: 1em;
     background: #bd3133;
 }
 .cajita:hover{
     background-color: #535252;
-    position: absolute;
     display: flex;
     flex-direction: row;
     justify-content: center;
