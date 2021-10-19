@@ -152,6 +152,12 @@ header{
 .contenedor_body{
   text-align: center;
 }
+.contenedor_body h2{
+  font-size:3em;
+}
+.contenedor_body p{
+  font-size: 1.2em;
+}
 .imagenes_slider{
   width: 90%;
   margin: auto;
