@@ -576,8 +576,9 @@ footer{
 }
 .imagenes_slider ul{
   display: flex;
-  width: 400%;
-  animation: deslizar_chico 20s infinite alternate linear;
+  width: 1000%;
+  height: 1000%;
+  animation: deslizar_chico 40s infinite alternate linear;
   
 }
 
