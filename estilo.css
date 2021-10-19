@@ -190,10 +190,8 @@ header{
     position: relative;
 }
 .cajita:hover{
-    width: 0%;
-    background-color: rgba(36, 30, 40, 0.700);
+    background-color: #535252;
     position: absolute;
-    top: 0;
     display: flex;
     flex-direction: row;
     justify-content: center;
