@@ -28,6 +28,15 @@
   75% {margin-left:-100%;}
   100% {margin-left:-100%;}
 }
+@keyframes revotar{
+  from {
+    transform: translate(0px, 0px);
+  }
+  to {
+    transform: translate(0,1em);
+    transform: translate(0,-1em);
+  }
+}
 
 /*General*/ 
 *{
@@ -198,6 +207,7 @@ header{
     align-items: center;
     overflow: hidden;
     border-radius: 1em;
+    animation: revotar 2s infinite linear;
 }
 /*Contacto*/
 .container{
