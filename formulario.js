@@ -36,7 +36,12 @@ const expresiones = {
 	Apellido: /^[a-zA-ZÀ-ÿ\s]{1,40}$/,
 	Correo: /^[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+$/,
 }
-
+const campos = {
+	Nombre: false,
+	Apellido: false,
+	Correo: false,
+	texto: false
+}
 
 const validarFormulario = () => {
 
@@ -44,7 +49,7 @@ const validarFormulario = () => {
 
 		case "Nombre":
 			if (expresiones.Nombre.test(e.target.value)){
-
+				campos[Nombre]= true;
 			} else {
 				alert("No es nombre válido")
 			}
@@ -52,19 +57,21 @@ const validarFormulario = () => {
 
 		case "Apellido":
 			if (expresiones.Apellido.test(e.target.value)){
-
+				campos[Apellido]= true;
 			} else {
 				alert("No es apellido válido")
 			}
 		break;
 
 		case "texto":
-		
+			(texto.value === "") {
+			    alert("Por favor, escribe tu correo electrónico");
+			    texto.focus();
 		break;
 
 		case "Correo":
 			if (expresiones.Correo.test(e.target.value)){
-
+				campos[Correo]= true;
 			} else {
 				alert("No es correo válido")
 			}
