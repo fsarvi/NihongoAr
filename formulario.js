@@ -83,7 +83,7 @@ const validarFormulario = () => {
 	}
 }
 
-inputs.forEach ( (input) => {
+entradas.forEach ( (input) => {
     input.addEventListener('keyup', validarFormulario);
     input.addEventListener('blur', validarFormulario);
 })
