@@ -29,7 +29,7 @@ Grupos
 |       - Uno u otro*/
 
 const formulario = document.getElementsByClassName('formulario');
-const entradas = document.querySelectorAll('.formulario input'); /*arreglo de todos los inputs*/ */
+const entradas = document.querySelectorAll('.formulario input'); /*arreglo de todos los inputs*/
 
 const expresiones = {
 	Nombre: /^[a-zA-ZÀ-ÿ\s]{1,40}$/, // Letras y espacios, pueden llevar acentos.
