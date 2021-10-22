@@ -1,4 +1,3 @@
-document.addEventListener("DOMContentLoaded", function() {
 document.getElementById("formulario").addEventListener('submit', validarFormulario); 
 
 var nombre = document.getElementById("#nombre").value;
