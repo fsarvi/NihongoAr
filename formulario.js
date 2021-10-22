@@ -16,4 +16,5 @@ function validarFormulario(e) {
 	}
 
 	this.submit();
+}
 
