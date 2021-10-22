@@ -6,7 +6,7 @@
 
 
 	  function validarFormulario(e) {
-		ee.preventDefault();
+		e.preventDefault();
 
 
 		var nombre = document.getElementById("nombre").value;
