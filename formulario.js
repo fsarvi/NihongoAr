@@ -13,7 +13,7 @@ function validarFormulario(e) {
 		alert("Completa todos los campos antes de enviar");
 		 return ;
 	}
-	alert("Mensaje enviado correctamente)
+	alert("Mensaje enviado correctamente");
 	this.submit();
 }
 
