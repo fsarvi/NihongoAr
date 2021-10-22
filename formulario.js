@@ -12,6 +12,7 @@ const expresiones = {
 }
 
 function validarFormulario(e) {
+	/*En el objeto evento disponemos del método preventDefault() que realiza la parada del comportamiento predeterminado del evento correspondiente, en este caso el envío del formulario.*/
 	e.preventDefault();
 	
 	var nombre = document.getElementById('nombre').value;
