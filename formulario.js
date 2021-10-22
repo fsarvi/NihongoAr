@@ -28,7 +28,7 @@ Grupos
 ( )     - Grupo
 |       - Uno u otro*/
 
-const formulario = document.getElementsByClassName('.formulario');
+const formulario = document.getElementsById('formulario');
 const entradas = document.querySelectorAll('.formulario input'); /*arreglo de todos los inputs*/
 
 const expresiones = {
