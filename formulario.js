@@ -64,9 +64,13 @@ const validarFormulario = () => {
 		break;
 
 		case "texto":
-			(texto.value === "") {
+			if (texto.value === "") {
 			    alert("Por favor, escribe tu correo electrónico");
 			    texto.focus();
+			} else {
+				campos[texto]=true;
+			}
+			
 		break;
 
 		case "Correo":
