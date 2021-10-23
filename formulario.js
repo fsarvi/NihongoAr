@@ -21,7 +21,7 @@ function validarFormulario(e) {
 		document.getElementById('nombre').focus();
 		return;
 	 }
-	if(expresiones.nombre.test(e.target.value)){
+	if(expresiones.nombre.test(nombre.value)){
 		alert(nombre.value);
 		alert(expresiones.nombre.test(nombre.value));
 	} else {
