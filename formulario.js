@@ -22,7 +22,7 @@ function validarFormulario(e) {
 		return;
 	 }
 	if(expresiones.nombre.test(e.target.value)){
-		alert("toma como str")
+		alert(expresiones.nombre.test(e.target.value))
 	} else {
 		alert("Datos no válidos");
 		document.getElementById('nombre').focus();
