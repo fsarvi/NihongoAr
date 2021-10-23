@@ -22,8 +22,6 @@ function validarFormulario(e) {
 		return;
 	 }
 	if(expresiones.nombre.test(nombre)){
-		alert(nombre.value);
-		alert(expresiones.nombre.test(nombre));
 	} else {
 		alert("Datos no válidos");
 		document.getElementById('nombre').focus();
@@ -36,6 +34,12 @@ function validarFormulario(e) {
 		document.getElementById('apellido').focus();
    		return;
   	}
+	if(expresiones.nombre.test(apellido)){
+	} else {
+		alert("Datos no válidos");
+		document.getElementById('apellido').focus();
+		return;
+	}
 	
   	var texto = document.getElementById('texto').value;
   	if(texto.length == 0) {
