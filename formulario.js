@@ -35,6 +35,6 @@ function validarFormulario(e) {
 		document.getElementById('texto').focus();
     	return;
   	}
-	
+	alert("Mensaje enviado correctamente")
 	this.submit();
 }
