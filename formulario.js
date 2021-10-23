@@ -21,6 +21,12 @@ function validarFormulario(e) {
 		document.getElementById('nombre').focus();
 		return;
 	 }
+	if (expresiones.usuario.test(e.target.value)){
+	} else {
+		alert("Datos no válidos");
+		document.getElementById('nombre').focus();
+		return;
+	}
 	
   	var apellido = document.getElementById('apellido').value;
   	if(apellido.length == 0) {
