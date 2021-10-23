@@ -20,8 +20,6 @@ function validarFormulario(e) {
    		alert('Complete este campo');
 		document.getElementById('nombre').focus();
 		return;
-	 } else if{
-		 validarCampo(expresiones.usuario, e.target, 'usuario');
 	 }
 	
   	var apellido = document.getElementById('apellido').value;
