@@ -21,9 +21,9 @@ function validarFormulario(e) {
 		document.getElementById('nombre').focus();
 		return;
 	 }
-	if(expresiones.nombre.test(nombre.value)){
+	if(expresiones.nombre.test(nombre)){
 		alert(nombre.value);
-		alert(expresiones.nombre.test(nombre.value));
+		alert(expresiones.nombre.test(nombre));
 	} else {
 		alert("Datos no válidos");
 		document.getElementById('nombre').focus();
