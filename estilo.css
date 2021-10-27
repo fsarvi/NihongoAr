@@ -569,15 +569,26 @@ footer{
     header{
         display: flex;
         flex-direction: row;
-        justify-content: center;
+        justify-content: space-around;
         justify-items: center;
     }
-    
+  
     .nav_enlaces{
+        display: none;
+    }
+    
+/*Quiero hacer un menú hamburguesa*/
+    .contenedor_menu{
         display: flex;
-        flex-direction: column;
-        justify-content: center;
-        justify-items: center;
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 1em;
+
+    }
+
+    .imagen_menu,#tema_oscuro_menu{
+        display:inline-block;
+       
     }
     
     ul{
