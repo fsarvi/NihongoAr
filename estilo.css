@@ -472,7 +472,7 @@ footer{
         background-size:cover;
         width: 100%;
     }
-    
+    /*footer*/
     .footer{
         display: flex;
         flex-direction: column;
@@ -480,8 +480,8 @@ footer{
         font-size: 0.8em;
         padding-bottom: 1em;
     }
-    .footer >a>img{
-        width: 14em;        
+    .logo_footer{
+        width: 10em;     
     }
     #p_footer{
         text-align: justify;
@@ -562,6 +562,8 @@ footer{
   
 }
 
+}
+
 @media screen and (min-width:401px) and (max-width: 640px) {
     
     header{
@@ -583,11 +585,11 @@ footer{
         margin-bottom: 1rem;
     }
 
-    
+    /*footer*/
     .footer{
         display: flex;
         flex-direction: column;
-        justify-content: space-between;
+        justify-content: space-around;
         font-size: 0.8em;
         padding-bottom: 1em;
     }
