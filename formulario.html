@@ -13,7 +13,7 @@
 </head>
 <body>
     <!--Acá va el header, el nav, toda esa bola enorme-->
-    <header id="header" style="background-color: #bd3133;">
+    <header id="header">
         <nav>
                 <!--Quiero utilizar ul para las diferentes páginas-->
                 <div class="nav_logo">
@@ -32,28 +32,27 @@
                     <li><a href="formulario.html">Contacto</a></li>
                 </ul>
                 
+                <div class="contenedor_menu">
 
-                <div class="nav_menu">
-                    
-                    <li><i class="fas fa-align-justify" id="abre_menu"></i> 
-
-                        <ul class="menu_hamburguesa">
+                    <div class="imagen_menu">
                         
-                            <li>Recursos <i class="fas fa-angle-right"></i>
-                                <ul class="recursos">
-                                    <li><a href="paginas.html" target="_blank">Páginas</a></li> <br>
-                                    <li><a href="canales.html" target="_blank">Canales de Youtube</a></li><br>
-                                    <li><a href="archivos.html" target="_blank">Archivos y más</a></li>
-                                </ul>                   
-                            </li>                        
-                            <li><a href="acercade.html">Acerca de</a></li>
-                            <li><a href="formulario.html">Contacto</a></li>
-                        </ul>  
-                    </li>
+                        <i class="fas fa-bars" id="abrir_menu" onClick="menuHamburguesa()"></i> 
+                    </div>
 
-                    <div class="temaoscuro" id="tema_oscuro_menu"><i class="fas fa-adjust"></i></div>
+                    <div class="temaoscuro" id="tema_oscuro_menu"><i class="fas fa-adjust" onClick="temaOscuro()"></i></div>
+                </div>
+
+                <div class="menu_hamburguesa activo">        
+                    <li>Recursos <i class="fas fa-angle-down"></i></li> 
+                    <li><a href="paginas.html" class="recurso">Páginas</a></li> <br>
+                    <li><a href="canales.html" class="recurso">Canales de Youtube</a></li><br>
+                    <li><a href="acercade.html">Acerca de</a></li>
+                    <li><a href="formulario.html">Contacto</a></li>
                 </div>
                 
+                              
+
+            </div>
                     
         </nav>
     </header>
@@ -113,5 +112,6 @@
     <script src="arriba_boton.js"></script>
     <script src="temaoscuro.js"></script>
     <script src="formulario.js"></script>
+    <script src="menuhamburguesa.js"></script>
 </body>
 </html>
