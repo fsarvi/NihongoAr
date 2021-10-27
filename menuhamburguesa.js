@@ -1,15 +1,9 @@
 menu = document.querySelector(".menu_hamburguesa");
-imagen = document.querySelector(".imagen_menu")
+imagen = document.querySelector("#abrir_menu")
 
 function menuHamburguesa(){
-    alert("Click")
-    menu.style.visibility= 'visible';
-    const rutaImagen = imagen.getAttribute('src');
-
-    if(rutaActual === 'imagenes/abrir.png'){
-        imagen.setAttribute('src','imagenes/cerrar.jpg');
-    }else{
-        imagen.setAttribute('src','imagenes/abrir.png');
-    }
-
+    menu.visibility = "visible";
+    menu.classList.toggle('activo');
+    menu.classList.toggle('opacity');
+    
 }

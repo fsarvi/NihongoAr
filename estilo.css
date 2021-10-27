@@ -85,10 +85,11 @@ body{
 .imagen_menu,#tema_oscuro_menu{
     display: none;
 }
-
-.menu_hamburguesa{
-    visibility: hidden;
+#abrir_menu{
+    color: white;
 }
+
+
 .recursos{
     display: none;
 }
@@ -107,9 +108,7 @@ header{
     font-size: 1.30em;
     text-align: center;
 }
-.menu_hamburguesa{
-    display: none;
-}
+
 .nav_logo > a > img{
     align-items: center;
     padding: 2% 0 2% 0;
@@ -158,6 +157,21 @@ header{
     cursor: pointer;
     color:white;
 }
+
+.menu_hamburguesa{
+    list-style: none;
+    color: white;
+    font-size: 1em;
+    text-align: start;
+    padding: 1em;
+    position: absolute;
+    transition: all .5s ease;
+    background-color: #bd3133;
+}
+.activo{
+    transform: translate(-600px);
+}
+.no_activo
 /*INDEX*/
 .titulo{
   transition: all 0.2s ease-in;
@@ -447,13 +461,10 @@ footer{
     }
 
     .imagen_menu,#tema_oscuro_menu{
-        display:flex;
+        display:inline-block;
        
     }
 
-    .imagen_menu > img{
-        width: 1em;
-    }
 
     body{
         background-image: url("imagenes/montefuji.jpg");
