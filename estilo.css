@@ -82,9 +82,10 @@ body{
     background-image: url("imagenes/montefuji.jpg");
     background-size: cover;
 }
-.nav_menu{
+.imagen_menu,.tema_oscuro_menu, .menu_hamburguesa{
     display: none;
 }
+
 .recursos{
     display: none;
 }
@@ -238,7 +239,7 @@ header{
 /*Contacto*/
 .container{
     width: 80%;
-    border-raiuds:5%;
+    border-radius:5%;
     padding: 2em;
     display:flex;
     flex-direction: column;
@@ -421,7 +422,7 @@ footer{
 /*Media QUERIES*/
 
 @media screen and (max-width:400px) {
-    /*Quiero hacer un menú hamburguesa*/
+    
     header{
         display: flex;
         flex-direction: row;
@@ -432,60 +433,12 @@ footer{
     .nav_enlaces{
         display: none;
     }
-    #saca_menu{
-        display: none;
-    }
     
-    .nav_menu{
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        padding: 1em;
-        list-style:none;
-        
-    }
-    .nav_menu li{
-        cursor: pointer;
-        color: white;
-        position: relative;
-    }
-    .menu_hamburguesa{   
-        display:none;
-        font-size: 0.9em;
-    }     
-    .nav_menu li:hover ul{
-        display: flex;
-        flex-direction: column;
-        list-style: none;
-        justify-items: center;
-        justify-content: center;
-        background-color: #bd3133;
-        border-radius: 7%;
-    }
-    .menu_hamburguesa >li{
-        cursor: pointer;
-        color: white;
-        padding: 1em;
-    }
-    .recursos{
+/*Quiero hacer un menú hamburguesa*/
+    .imagen_menu,.tema_oscuro_menu{
         display: none;
-        position: absolute;
-        list-style: none;
-        font-size: 0.8em;
-        background-color: #bd3133;
-        box-shadow: gray 0 0 2em;
-        border-radius: 0 0 7% 7%;
-        transition: all 0.2s ease-in;   
     }
-    .menu_hamburguesa li:hover ul{
-        display: inline-block;
-        padding: 1em;
-        width: 9em;
-        color: white;
-        text-align: start;
-        background: #bd3133;
-        transform: translate(5%,-10%)  ;
-    }
+
 
     body{
         background-image: url("imagenes/montefuji.jpg");
