@@ -435,10 +435,21 @@ footer{
     }
     
 /*Quiero hacer un menú hamburguesa*/
-    .imagen_menu,#tema_oscuro_menu{
+    .contenedor_menu{
         display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+
     }
 
+    .imagen_menu,#tema_oscuro_menu{
+        display:flex;
+       
+    }
+
+    .imagen_menu > img{
+        width: 1em;
+    }
 
     body{
         background-image: url("imagenes/montefuji.jpg");
