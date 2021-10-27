@@ -435,7 +435,7 @@ footer{
     }
     
 /*Quiero hacer un menú hamburguesa*/
-    .imagen_menu,.tema_oscuro_menu{
+    .imagen_menu,#tema_oscuro_menu{
         display: flex;
     }
 
