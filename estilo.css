@@ -82,10 +82,13 @@ body{
     background-image: url("imagenes/montefuji.jpg");
     background-size: cover;
 }
-.imagen_menu,#tema_oscuro_menu, .menu_hamburguesa{
+.imagen_menu,#tema_oscuro_menu{
     display: none;
 }
 
+.menu_hamburguesa{
+    visibility: hidden;
+}
 .recursos{
     display: none;
 }
