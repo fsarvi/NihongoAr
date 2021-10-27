@@ -6,7 +6,7 @@ function menuHamburguesa(){
     menu.style.visibility= 'visible';
     const rutaImagen = imagen.getAttribute('src');
 
-    if(rutaActual == 'imagenes/abrir.png'){
+    if(rutaActual === 'imagenes/abrir.png'){
         imagen.setAttribute('src','imagenes/cerrar.jpg');
     }else{
         imagen.setAttribute('src','imagenes/abrir.png');
