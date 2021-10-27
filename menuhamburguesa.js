@@ -1,5 +1,5 @@
 menu = document.querySelector(".menu_hamburguesa");
-imagen = document.querySelector("#abrir_menu")
+recursos = document.querySelector(".recursos")
 
 function menuHamburguesa(){
     menu.visibility = "visible";

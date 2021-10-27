@@ -63,6 +63,7 @@
   }
 }
 
+
 /*General*/ 
 *{
     margin: 0;
@@ -87,11 +88,6 @@ body{
 }
 #abrir_menu{
     color: white;
-}
-
-
-.recursos{
-    display: none;
 }
 
 label{
@@ -171,7 +167,12 @@ header{
 .activo{
     transform: translate(-600px);
 }
-.no_activo
+
+.recurso{
+    padding-left: 2em;
+}
+
+
 /*INDEX*/
 .titulo{
   transition: all 0.2s ease-in;
